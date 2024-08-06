@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.20;
 
-import {Box} from "./Box.sol";
+import {Boxx} from "./Boxx.sol";
 
-/// @title BoxV2
+/// @title BoxxV2
 /// @notice An improved box with objects inside.
 /// @custom:oz-upgrades-from Box
-contract BoxV2 is Box {
+contract BoxxV2 is Boxx{
     /*//////////////////////////////////////////////////////////////
                                 FUNCTIONS
     //////////////////////////////////////////////////////////////*/

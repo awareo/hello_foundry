@@ -5,9 +5,9 @@ import {Initializable} from  "@openzeppelin/contracts-upgradeable/proxy/utils/In
 import {UUPSUpgradeable} from "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
 import {OwnableUpgradeable} from "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 
-/// @title Box
-/// @notice A box with objects inside.
-contract Box is Initializable, UUPSUpgradeable, OwnableUpgradeable {
+/// @title Boxx
+/// @notice A boxx with objects inside.
+contract Boxx is Initializable, UUPSUpgradeable, OwnableUpgradeable {
     /*//////////////////////////////////////////////////////////////
                                 VARIABLES
     //////////////////////////////////////////////////////////////*/

@@ -1,7 +1,7 @@
 import { ethers, defender } from "hardhat";
 
 async function main() {
-  const Box = await ethers.getContractFactory("Box");
+  const Box = await ethers.getContractFactory("Boxx");
 
   const defaultApprovalProcess = await defender.getUpgradeApprovalProcess();
 
@@ -12,7 +12,8 @@ async function main() {
   const deployment = await defender.deployProxy(Box, [5, defaultApprovalProcess.address], {
     initializer: "initialize",
     redeployImplementation: "always",
-    salt: "06082024ThoreBlnAWR"
+    salt: "0608202402ThoreBlnAWR",
+    verifySourceCode: true,
   });
 
   await deployment.waitForDeployment();

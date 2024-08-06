@@ -12,13 +12,19 @@
       "txHash": "0x4021829033142998cef131baac706cd427d734b4d1773fda26594360f03f7e2b",
       "remoteDeploymentId": "d0ae3fcd-ca99-45fa-96c2-e9f03bd00e3a",
       "kind": "uups"
+    },
+    {
+      "address": "0xca9891951ff8d3ed8364F0760543A41A572b252F",
+      "txHash": "0x98276ebb5a425e7fa44f01df44e0fb5f366a683890fc075a8ed63ef7372ac4c7",
+      "remoteDeploymentId": "6764a215-798a-4701-a75b-20f3c78ed7f5",
+      "kind": "uups"
     }
   ],
   "impls": {
     "c061341f6efd9e45289316b78897bc67b946c88eadaf66f863f29fd533d99c94": {
       "address": "0x42B4Dc08E6d0CAa2C0854e7DD4D25c250eDD6952",
       "txHash": "0x2ed84926b293d146697518564164daaeca5d3bfb61076be54f9f8f5641cd4c84",
-      "remoteDeploymentId": "f4d6a222-4c3f-4476-aef4-aa18a83d6aad",
+      "remoteDeploymentId": "03db15ae-2b08-44cb-95c9-02c9a932fbec",
       "layout": {
         "solcVersion": "0.8.20",
         "storage": [
@@ -112,6 +118,7 @@
       },
       "allAddresses": [
         "0x42B4Dc08E6d0CAa2C0854e7DD4D25c250eDD6952",
+        "0x27f44142da22735aa1B6b0224133C609eEA9912d",
         "0xB6cA7fAEcecDDcc3E638f1F91B7eCAc03E9E71FE"
       ]
     },

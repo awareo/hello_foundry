@@ -1,10 +1,13 @@
 import { ethers, defender } from "hardhat";
 
 async function main() {
-  const BoxV2 = await ethers.getContractFactory("BoxV2");
+  const BoxV2 = await ethers.getContractFactory("BoxxV2");
 
-  const  salt = "06082024ThoreBlnAWR"
-  const proposal = await defender.proposeUpgradeWithApproval('0xb1Cd798ECdc0c8325770705472dF98D4Eb8879CF', BoxV2, { salt: salt });
+  const  salt = "0608202402ThoreBlnAWR"
+  const proposal = await defender.proposeUpgradeWithApproval('0xca9891951ff8d3ed8364F0760543A41A572b252F', BoxV2, { 
+    salt: salt,
+    verifySourceCode: true,
+  });
 
   console.log(`Upgrade proposed with URL: ${proposal.url}`);
 }
