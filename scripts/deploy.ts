@@ -12,7 +12,7 @@ async function main() {
   const deployment = await defender.deployProxy(Box, [5, defaultApprovalProcess.address], {
     initializer: "initialize",
     redeployImplementation: "always",
-    salt: "123456"
+    salt: "06082024ThoreBlnAWR"
   });
 
   await deployment.waitForDeployment();

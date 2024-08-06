@@ -15,7 +15,12 @@ const config: HardhatUserConfig = {
     sepolia: {
       url: "https://ethereum-sepolia.publicnode.com",
       chainId: 11155111
+    }
     },
+    etherscan: {
+      apiKey: {
+        sepolia: 'IGBS73IWEJ7FM97N24S89MYQ9BHUTIVTID',
+    }
   },
 };
 
