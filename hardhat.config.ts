@@ -20,6 +20,9 @@ const config: HardhatUserConfig = {
     etherscan: {
       apiKey: {
         sepolia: 'IGBS73IWEJ7FM97N24S89MYQ9BHUTIVTID',
+    },
+    sourcify: {
+      enabled: true
     }
   },
 };

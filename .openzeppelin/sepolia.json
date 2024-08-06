@@ -33,8 +33,8 @@
             "offset": 0,
             "slot": "0",
             "type": "t_uint256",
-            "contract": "Box",
-            "src": "contracts/Box.sol:16"
+            "contract": "Boxx",
+            "src": "contracts/Boxx.sol:16"
           }
         ],
         "types": {
